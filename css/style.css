@@ -172,3 +172,28 @@ body {
     backdrop-filter: blur(10px);
     
 }
+
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 90%;
+    }
+    .header nav ul li{
+        display: none;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero p{
+        font-size: 0.9rem;
+    }
+    .hero .grid-hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .grid-hero .btn-readmore{
+        width: 90dvw !important;
+    }
+    .hero .grid-hero .btn-glass{
+        width: 90dvw !important;
+    }
+}

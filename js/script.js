@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-
-    call_package();
-
     const typedTextSpan = document.getElementById('typed-text');
     const cursorSpan = document.getElementById('cursor');
 
