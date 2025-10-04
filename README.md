@@ -10,16 +10,26 @@ Selamat datang di repositori GitHub *Kelompok 4*! Repositori ini dibuat sebagai 
 4. **Tegar Mahardika**
 
 ## 📌 Deskripsi Proyek
-
-> *(Ubah bagian ini sesuai dengan topik proyekmu)*  
-Repositori ini berisi [nama proyek / topik tugas], yang mencakup [deskripsi singkat proyek, teknologi yang digunakan, dan tujuan].  
-Proyek ini dibuat untuk memenuhi tugas [nama mata kuliah / pelatihan] dengan harapan dapat memberikan solusi yang [inovatif / efisien / edukatif / dsb].
+ 
+Repositori ini berisi tugas membuat website, yang mencakup deskripsi singkat proyek, teknologi yang digunakan, dan tujuan.  
+Proyek ini dibuat untuk memenuhi tugas Mata Kuliah Keterampilan Non Teknis.
 
 ## 🛠️ Teknologi yang Digunakan
 
-- [Bahasa pemrograman, contoh: Python, JavaScript]
-- [Framework/library, contoh: Flask, React, TensorFlow]
-- [Tools lainnya, contoh: Git, Docker, dsb.]
+1. **Visual Studio Code** – sebagai editor utama dalam menulis kode program.  
+   🔗 [Download VS Code](https://code.visualstudio.com/)  
+   📸 *(Capture layar tampilan VS Code dengan file project)*
+
+2. **GitHub** – untuk menyimpan repository proyek, menghubungkan dengan issues, serta memudahkan kolaborasi.  
+   🔗 [GitHub](https://github.com/)  
+   📸 *(Capture halaman repo GitHub kelompok)*
+
+3. **Figma** – digunakan untuk merancang desain awal layout website.  
+   🔗 [Figma](https://www.figma.com/)  
+   📸 *(Capture tampilan desain Figma jika ada)*
+
+4. **Whatsapp Group** – media komunikasi kelompok dalam berdiskusi dan membagi tugas.  
+   📸 *(Capture screenshot meeting atau chat group)*
 
 ## 🚀 Cara Menjalankan Proyek
 
