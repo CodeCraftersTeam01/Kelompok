@@ -7,7 +7,7 @@
     animation: blink 0.7s infinite;
 }
 
-.header{
+.header {
     width: 70%;
     background-color: #ffffff28;
     backdrop-filter: blur(10px);
@@ -15,6 +15,7 @@
     border-radius: 100px;
     transform: translate(-50%, -0%);
     top: 10px;
+    z-index: 1000;
     left: 50%;
     display: flex;
     justify-content: space-between;
@@ -28,16 +29,17 @@
 }
 
 
-.header nav{
+.header nav {
     padding: 10px 20px;
     width: 100%;
     display: flex;
     height: 100%;
     justify-content: right;
     align-items: center;
-    
+
 }
-.header nav ul{
+
+.header nav ul {
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -47,7 +49,7 @@
     text-align: center;
 }
 
-.header nav ul a{
+.header nav ul a {
     text-decoration: none;
     color: white;
     text-align: center;
@@ -76,6 +78,15 @@
 body {
     font-family: "Inter", sans-serif !important;
     color: white !important;
+    background-color: #000 !important;
+}
+
+.blur-devide {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, #000, transparent);
 }
 
 .hero {
@@ -112,7 +123,7 @@ body {
 }
 
 .silk-background {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -139,13 +150,13 @@ body {
     line-height: 1.5;
 }
 
-.hero .grid-hero{
+.hero .grid-hero {
     display: flex;
     gap: 10px;
     margin-top: 10px;
 }
 
-.btn-readmore{
+.btn-readmore {
     background-color: #ffff !important;
     border-radius: 100px !important;
     color: black;
@@ -154,12 +165,13 @@ body {
     border: 1px solid white;
     padding: 6px 35px !important;
 }
-.btn-readmore:hover{
+
+.btn-readmore:hover {
     background-color: #000 !important;
     color: #ffff !important;
 }
 
-.btn-glass{
+.btn-glass {
     background-color: #ffffff28 !important;
     border-radius: 100px !important;
     border: 1px solid #ffffff5f !important;
@@ -167,33 +179,165 @@ body {
     padding: 6px 35px !important;
 }
 
-.btn-glass:hover{
+.btn-glass:hover {
     background-color: #ffffff5f !important;
     backdrop-filter: blur(10px);
-    
+
 }
 
+.contact {
+    margin-top: 120px;
+    padding: 20px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff32;
+    border-radius: 10px;
+    margin: 0px 40px;
+    gap: 10px;
+}
+
+.contact .image{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.contact .about{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff28;
+    border-top: 1px solid #ffffff5f;
+    border-radius: 0 0 20px 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.contact .about h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+.contact .about p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.contact .image .image-bg {
+    background: url("https://4kwallpapers.com/images/wallpapers/windows-11-stock-purple-abstract-black-background-amoled-3840x2400-9056.jpg");
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid rgba(128, 128, 128, 0.502) !important;
+    color: white !important;
+}
+
+.form-control::placeholder {
+    color: grey !important;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-grid{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.form-grid .card{
+    background-color: #ffffff28 !important;
+    border: 1px solid #ffffff5f !important;
+    padding: 10px !important;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s all;
+}
+.form-grid .card:hover{
+    background-color: #ffffff5f !important;
+    backdrop-filter: blur(10px);
+}
+
+.form-grid .card h3{
+    font-weight: bold;
+    color: white !important;
+    font-size: 12px;
+}
+
+.form-grid .card input[type=radio]{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+}
+
+.form-grid .card.blurred {
+    filter: blur(3px);
+    opacity: 0.5;
+}
+
+
+.form-grid .card img{
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.purple{
+    color: #ac18ac !important;
+}
+/* Responsive */
+
 @media only screen and (max-width: 600px) {
-    .header{
+    .header {
         width: 90%;
     }
-    .header nav ul li{
+
+    .header nav ul li {
         display: none;
     }
-    .hero h1{
+
+    .hero h1 {
         font-size: 2rem;
     }
-    .hero p{
+
+    .hero p {
         font-size: 0.9rem;
     }
-    .hero .grid-hero{
+
+    .hero .grid-hero {
         display: flex;
         flex-direction: column;
     }
-    .hero .grid-hero .btn-readmore{
+
+    .hero .grid-hero .btn-readmore {
         width: 90dvw !important;
     }
-    .hero .grid-hero .btn-glass{
+
+    .hero .grid-hero .btn-glass {
         width: 90dvw !important;
     }
 }
