@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    AOS.init();
     const typedTextSpan = document.getElementById('typed-text');
     const cursorSpan = document.getElementById('cursor');
 
