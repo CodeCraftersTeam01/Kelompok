@@ -18,27 +18,24 @@ Proyek ini dibuat untuk memenuhi tugas Mata Kuliah Keterampilan Non Teknis.
 
 1. **Visual Studio Code** – sebagai editor utama dalam menulis kode program.  
    🔗 [Download VS Code](https://code.visualstudio.com/)  
-   📸 *(Capture layar tampilan VS Code dengan file project)*
 
 2. **GitHub** – untuk menyimpan repository proyek, menghubungkan dengan issues, serta memudahkan kolaborasi.  
    🔗 [GitHub](https://github.com/)  
-   📸 *(Capture halaman repo GitHub kelompok)*
 
 3. **Figma** – digunakan untuk merancang desain awal layout website.  
-   🔗 [Figma](https://www.figma.com/)  
-   📸 *(Capture tampilan desain Figma jika ada)*
+   🔗 [Figma](https://www.figma.com/) 
+   - https://www.figma.com/design/4NdusLDujTcL82orWa46xb/Untitled?node-id=0-1&t=DfImwdjp77U6ASQz-1 
 
 4. **Whatsapp Group** – media komunikasi kelompok dalam berdiskusi dan membagi tugas.  
-   📸 *(Capture screenshot meeting atau chat group)*
 
 ## 🚀 Cara Menjalankan Proyek
 
 ```bash
 # Clone repositori
-git clone https://github.com/username/nama-repo.git
+git clone https://github.com/CodeCraftersTeam01/Kelompok.git
 
 # Masuk ke folder proyek
-cd nama-repo
+cd Kelompok
 
 # Jalankan aplikasi
 [perintah untuk menjalankan]
