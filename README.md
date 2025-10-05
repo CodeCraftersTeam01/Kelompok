@@ -28,6 +28,25 @@ Proyek ini dibuat untuk memenuhi tugas Mata Kuliah Keterampilan Non Teknis.
 
 4. **Whatsapp Group** – media komunikasi kelompok dalam berdiskusi dan membagi tugas.  
 
+## Laporan
+
+Dalam proses pengerjaan proyek, beberapa hambatan yang dialami antara lain:
+
+1. **Hambatan Teknis:**
+   Beberapa anggota belum terbiasa menggunakan GitHub sehingga terjadi konflik merge saat menggabungkan kode.
+
+   Solusi: Memberikan tutorial singkat penggunaan Git (commit, push, pull, branch) dan membagi tanggung jawab folder agar tidak saling bertabrakan.
+
+2. **Hambatan Komunikasi:**
+   Kesulitan menyatukan waktu diskusi karena jadwal kuliah berbeda-beda.
+
+   Solusi: Membuat grup komunikasi (WhatsApp/Discord) dan menjadwalkan pertemuan online secara fleksibel.
+
+3. **Hambatan Desain:**
+   Perbedaan pendapat dalam menentukan warna dan tata letak website.
+
+   Solusi: Membuat voting sederhana di grup untuk memilih desain terbaik, kemudian disepakati bersama.
+
 ## 🚀 Cara Menjalankan Proyek
 
 ```bash
