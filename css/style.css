@@ -200,14 +200,14 @@ body {
     gap: 10px;
 }
 
-.contact .image{
+.contact .image {
     position: relative;
     height: 100%;
     overflow: hidden;
     border-radius: 20px;
 }
 
-.contact .about{
+.contact .about {
     position: absolute;
     bottom: 0px;
     left: 0;
@@ -221,11 +221,12 @@ body {
     color: white;
 }
 
-.contact .about h3{
+.contact .about h3 {
     font-weight: bold;
     font-size: 24px;
 }
-.contact .about p{
+
+.contact .about p {
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -256,17 +257,18 @@ body {
     color: grey !important;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 10px;
 }
 
-.form-grid{
+.form-grid {
     display: grid;
     position: relative;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-.form-grid .card{
+
+.form-grid .card {
     background-color: #ffffff28 !important;
     border: 1px solid #ffffff5f !important;
     padding: 10px !important;
@@ -274,18 +276,19 @@ body {
     position: relative;
     transition: 0.3s all;
 }
-.form-grid .card:hover{
+
+.form-grid .card:hover {
     background-color: #ffffff5f !important;
     backdrop-filter: blur(10px);
 }
 
-.form-grid .card h3{
+.form-grid .card h3 {
     font-weight: bold;
     color: white !important;
     font-size: 12px;
 }
 
-.form-grid .card input[type=radio]{
+.form-grid .card input[type=radio] {
     position: absolute;
     width: 100%;
     z-index: 100;
@@ -300,107 +303,109 @@ body {
 }
 
 
-.form-grid .card img{
+.form-grid .card img {
     width: 40px !important;
     height: 40px !important;
     object-fit: cover;
     border-radius: 100px;
 }
 
-.purple{
+.purple {
     color: #ac18ac !important;
 }
 
 .footer {
-  background: rgba(255, 255, 255, 0.05);
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  color: #fff;
-  margin-top: 100px;
-  padding: 60px 20px 30px;
-  position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    color: #fff;
+    margin-top: 100px;
+    padding: 60px 20px 30px;
+    position: relative;
 }
 
 .footer-logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
 }
 
 .footer-desc {
-  font-size: 0.9rem;
-  color: #ccc;
-  line-height: 1.6;
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.6;
 }
 
 .footer-title {
-  font-size: 1.1rem;
-  margin-bottom: 12px;
-  font-weight: 600;
-  color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #fff;
 }
 
 .footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-links li {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .footer-links a {
-  text-decoration: none;
-  color: #ccc;
-  transition: color 0.3s ease;
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .footer-socials a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #fff;
-  transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transition: all 0.3s ease;
 }
 
 .footer-socials a:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-4px);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 15px;
-  font-size: 0.85rem;
-  color: #aaa;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+    font-size: 0.85rem;
+    color: #aaa;
 }
 
 
-.profile{
+.profile {
     margin: 100px 0px 200px 0px;
 }
 
-.profile h2{
+.profile h2 {
     font-weight: bold;
 }
-.profile p{
+
+.profile p {
     color: grey !important;
     padding: 0;
     margin: 0;
 }
+
 .card-profile {
     border-radius: 20px;
     overflow: hidden;
@@ -416,7 +421,7 @@ body {
     height: 110px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid rgba(255,255,255,0.5);
+    border: 3px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 18px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -457,19 +462,19 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: conic-gradient(
-        from 0deg,
-        rgba(255, 255, 255, 0.15),
-        transparent 40%,
-        transparent 80%,
-        rgba(255, 255, 255, 0.15)
-    );
+    background: conic-gradient(from 0deg,
+            rgba(255, 255, 255, 0.15),
+            transparent 40%,
+            transparent 80%,
+            rgba(255, 255, 255, 0.15));
     animation: rotate 6s linear infinite;
     z-index: 0;
 }
 
 @keyframes rotate {
-    to { transform: rotate(360deg); }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* isi card biar di atas aura */
@@ -487,7 +492,7 @@ body {
 /* hover untuk foto (biar lebih hidup) */
 .card-profile:hover img {
     transform: scale(1.08);
-    box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
 
@@ -495,14 +500,16 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-    .contact{
+    .contact {
         display: grid;
+        margin: 0px 10px;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .contact .image{
-        height: 100dvh;
+    .contact .image {
+        height: 70dvh;
     }
+
     .header {
         width: 90%;
     }
